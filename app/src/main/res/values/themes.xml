@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HostelsApp" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkBlue</item>
+        <item name="colorPrimaryVariant">@color/teal_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/darkBlue</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/darkBlue</item>
+        <item name="android:textColorSecondary">@color/teal_700</item>
+        <item name="android:textColorTertiary">@color/darkBlue</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+    </style>
+
+    <style name="Theme.HostelsApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.HostelsApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+</resources>

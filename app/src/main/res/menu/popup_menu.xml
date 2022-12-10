@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popup_info"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Thông tin cơ bản" />
+    <item
+        android:id="@+id/popup_update"
+        android:icon="@drawable/ic_baseline_cached_24"
+        android:title="Chỉnh sửa" />
+    <item
+        android:id="@+id/popup_delete"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Xóa"/>
+</menu>

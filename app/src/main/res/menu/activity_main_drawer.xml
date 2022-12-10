@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Quản lý">
+        <menu>
+            <item
+                android:id="@+id/nav_room"
+                android:title="Phòng trọ"
+                android:icon="@drawable/ic_house" />
+            <item
+                android:id="@+id/nav_bill"
+                android:title="Hóa đơn"
+                android:icon="@drawable/ic_bill" />
+            <item
+                android:id="@+id/nav_customer"
+                android:title="Khách trọ"
+                android:icon="@drawable/ic_customer" />
+            <item
+                android:id="@+id/nav_room_type"
+                android:title="Loại phòng"
+                android:icon="@drawable/ic_type" />
+            <item
+                android:id="@+id/nav_service"
+                android:title="Giá điện, nước"
+                android:icon="@drawable/ic_service"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Thống kê">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_turnover"
+                    android:title="Doanh thu"
+                    android:icon="@drawable/ic_profits"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Tài khoản">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_account"
+                    android:title="Thông tin tài khoản"
+                    android:icon="@drawable/ic_profile" />
+                <item
+                    android:id="@+id/nav_pass"
+                    android:title="Đổi mật khẩu"
+                    android:icon="@drawable/ic_pass" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/ic_logout" />
+                <item
+                    android:id="@+id/nav_finish"
+                    android:title="Thoát"
+                    android:icon="@drawable/ic_finish" />
+            </group>
+        </menu>
+    </item>
+</menu>
